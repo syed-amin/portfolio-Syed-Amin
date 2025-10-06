@@ -627,6 +627,7 @@ a:focus {
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 5px;
+    color: #222;
 }
 
 .experience .exp-col h4 {
@@ -634,16 +635,31 @@ a:focus {
     font-weight: 400;
     font-style: italic;
     margin-bottom: 5px;
+    color: #555;
 }
 
 .experience .exp-col h5 {
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    color: #333;
 }
 
-.experience .exp-col p {
+.experience .exp-col ul {
     margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.experience .exp-col ul li {
+    margin-bottom: 10px; /* gap between list items */
+    color: #555; /* softer text color */
+    line-height: 1.7; /* better readability */
+    text-align: justify; /* makes text align neatly */
+}
+
+.experience .exp-col ul li:last-child {
+    margin-bottom: 0;
 }
 
 
@@ -976,6 +992,29 @@ a:focus {
 
 .review-slider.slick-slider {
     margin-bottom: 0;
+}
+
+
+.review-name h3 {
+  font-weight: 700;
+  background: linear-gradient(90deg, #ff4d4d, #4d79ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.review-name .social-icons {
+  margin-top: 8px;
+}
+
+.review-name .social-icons a {
+  color: #555;
+  margin-right: 10px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.review-name .social-icons a:hover {
+  color: #ff4d4d;
 }
 
 
